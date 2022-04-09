@@ -6,11 +6,11 @@ public class MaxValues {
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = 65535;
+    public static short maxShort = 32767;
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 2,147,483,647;
+    public static int maxInt = 0x7fffffff;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
