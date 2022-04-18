@@ -2,7 +2,7 @@ package com.bytelegend;
 public class MaxValues {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = 127?;
+    public static byte maxByte = 127;
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
