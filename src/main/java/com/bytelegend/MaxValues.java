@@ -2,31 +2,31 @@ package com.bytelegend;
 public class MaxValues {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = ?;
+    public static byte maxByte = 2 ** 8 / 2 - 1;
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = ?;
+    public static short maxShort = 2 ** 16 / 2 - 1;
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = ?;
+    public static int maxInt = 2 ** 32 / 2 - 1;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = ?;
+    public static long maxLong = 2 ** 64 /2 - 1;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = ?;
+    public static float maxFloat = Float.MAX_VALUE;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = ?;
+    public static double maxDouble = Double.MAX_VALUE;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = ?;
+    public static char maxChar = Char.MAX_VALUE;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
