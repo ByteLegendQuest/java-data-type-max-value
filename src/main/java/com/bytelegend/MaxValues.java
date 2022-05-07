@@ -1,20 +1,21 @@
-package com.bytelegend;
-public class MaxValues {
+package com.mihomo.test1;
+
+public class Test {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = 2 ** 8 / 2 - 1;
+    public static byte maxByte = Byte.MAX_VALUE;
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = 2 ** 16 / 2 - 1;
+    public static short maxShort = Short.MAX_VALUE;
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 2 ** 32 / 2 - 1;
+    public static int maxInt = Integer.MAX_VALUE;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 2 ** 64 /2 - 1;
+    public static long maxLong = Long.MAX_VALUE;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
@@ -26,7 +27,7 @@ public class MaxValues {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = Char.MAX_VALUE;
+    public static char maxChar = Character.MAX_VALUE;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
