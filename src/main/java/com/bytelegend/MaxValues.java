@@ -1,32 +1,32 @@
 package com.bytelegend;
 public class MaxValues {
-    // byte类型能存储的最大值是？ 8位，有符号，[-2^7,2^7-1]
+    // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = 127;
+    public static byte maxByte = ?;
 
-    // short类型能存储的最大值是？16位，有符号，[-2^15,2^15-1]
+    // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = 32767; 
+    public static short maxShort = ?;
 
-    // int类型能存储的最大值是？32位，有符号，[-2^31,2^31-1]
+    // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = 2147483647;
+    public static int maxInt = ?;
 
-    // long类型能存储的最大值是？64位，有符号，[-2^63,2^63-1], 以 L 结尾
+    // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 9223372036854775807L;
+    public static long maxLong = ?;
 
-    // float类型能存储的最大值是？32位，单精度，[-Float.MAX_VALUE,Float.MAX_VALUE]
+    // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = Float.MAX_VALUE;
+    public static float maxFloat = ?;
 
-    // double类型能存储的最大值是？64位，双精度，[-Double.MAX_VALUE,Double.MAX_VALUE]
+    // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = Double.MAX_VALUE;
+    public static double maxDouble = ?;
 
-    // char类型能存储的最大值是？16位，Unicode字符，\u0000(十进制等效值0) ~ \uffff(十进制等效值65535)
+    // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 65535;
+    public static char maxChar = ?;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
