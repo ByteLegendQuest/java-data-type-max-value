@@ -22,7 +22,7 @@ public class MaxValues {
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 1.7976931348623157e308f;
+    public static double maxDouble = 1.7976931348623157e308;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
