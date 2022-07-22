@@ -2,7 +2,7 @@ package com.bytelegend;
 public class MaxValues {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
-    public static byte maxByte = 128;
+    public static byte maxByte = 127;
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
@@ -26,7 +26,7 @@ public class MaxValues {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 'Z';
+    public static char maxChar = 65535;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
