@@ -1,4 +1,5 @@
-public class Main {
+package com.bytelegend;
+public class MaxValues {
     // byte类型能存储的最大值是？
     // The maximum value a byte type can store
     public static byte maxByte = 127;
@@ -25,7 +26,7 @@ public class Main {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = Character.MAX_VALUE;
+    public static char maxChar = '\uFFFF';
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
