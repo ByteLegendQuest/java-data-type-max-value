@@ -14,19 +14,19 @@ public class MaxValues {
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = 9223372036854775807;
+    public static long maxLong = 0x7fffffffffffffffL;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
-    public static float maxFloat = 0x7fffffff;
+    public static float maxFloat = Float.MAX_VALUE;
 
     // double类型能存储的最大值是？
     // The maximum value an double type can store
-    public static double maxDouble = 0x7fffffffffffffff;
+    public static double maxDouble = Double.MAX_VALUE;
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar = 32767;
+    public static char maxChar = 0xffff;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
