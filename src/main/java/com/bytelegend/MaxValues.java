@@ -10,7 +10,7 @@ public class MaxValues {
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
-    public static int maxInt = Integer.MAX_VALUE
+    public static int maxInt = Integer.MAX_VALUE;
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
@@ -26,7 +26,7 @@ public class MaxValues {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    public static char maxChar =  Character.MAX_VALUE;
+    public static char maxChar = Character.MAX_VALUE;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
