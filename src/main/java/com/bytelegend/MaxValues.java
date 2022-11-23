@@ -14,7 +14,7 @@ public class MaxValues {
 
     // long类型能存储的最大值是？
     // The maximum value an long type can store
-    public static long maxLong = LONG.MAX_VALUE;
+    public static long maxLong = Long.MAX_VALUE;
 
     // float类型能存储的最大值是？
     // The maximum value an float type can store
