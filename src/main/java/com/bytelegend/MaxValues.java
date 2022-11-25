@@ -42,6 +42,6 @@ public class MaxValues {
         System.out.println("maxDouble=" + maxDouble);
         System.out.println("maxDouble+1=" + (maxDouble + 1));
         System.out.println("maxChar=" + maxChar);
-        System.out.println("maxChar+1=" + (char)((int)maxChar + 1));
+        System.out.println("maxChar+1=" + (maxChar + 1));
     }
 }
