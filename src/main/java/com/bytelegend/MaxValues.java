@@ -25,7 +25,7 @@ public class MaxValues {
 
     // char类型能存储的最大值是？
     // The maximum value an char type can store
-    // public static char maxChar = Character.MAX_VALUE;
+    public static char maxChar = Character.MAX_VALUE;
 
     public static void main(String[] args) {
         System.out.println("maxByte=" + maxByte);
@@ -40,7 +40,7 @@ public class MaxValues {
         System.out.println("maxFloat+1=" + (maxFloat + 1));
         System.out.println("maxDouble=" + maxDouble);
         System.out.println("maxDouble+1=" + (maxDouble + 1));
-        System.out.println("maxChar=" + maxChar);
-        System.out.println("maxChar+1=" + (maxChar + 1));
+        System.out.println("maxChar=" + (int)maxChar);
+        System.out.println("maxChar+1=" + ((int)maxChar + 1));
     }
 }
