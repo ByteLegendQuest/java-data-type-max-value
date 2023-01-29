@@ -6,7 +6,7 @@ public class MaxValues {
 
     // short类型能存储的最大值是？
     // The maximum value a short type can store
-    public static short maxShort = Short.MAX_VALUE?;
+    public static short maxShort = Short.MAX_VALUE;
 
     // int类型能存储的最大值是？
     // The maximum value an int type can store
